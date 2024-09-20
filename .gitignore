@@ -1,0 +1,25 @@
+# hospital_cliente
+hospital_cliente/vendor
+hospital_cliente/node_modules
+hospital_cliente/.env
+hospital_cliente/public/hot
+hospital_cliente/public/storage
+hospital_cliente/storage/*.key
+hospital_cliente/storage/framework/cache/data/*
+hospital_cliente/storage/logs/*.log
+hospital_cliente/public/mix-manifest.json
+
+# hospital_server
+hospital_server/node_modules
+hospital_server/.env
+hospital_server/dist
+hospital_server/.vite
+hospital_server/.cache
+hospital_server/.rollup.cache
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

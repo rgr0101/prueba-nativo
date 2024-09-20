@@ -1,0 +1,112 @@
+.loader {
+    width: 50px;
+    aspect-ratio: 1;
+    --_c: no-repeat radial-gradient(farthest-side, #25b09b 92%, #0000);
+    background:
+        var(--_c) top,
+        var(--_c) left,
+        var(--_c) right,
+        var(--_c) bottom;
+    background-size: 12px 12px;
+    animation: l7 1s infinite;
+    height: 50px;
+}
+
+@keyframes l7 {
+    to {
+        transform: rotate(.5turn)
+    }
+}
+
+svg {
+    color: #fff !important;
+}
+
+.contenedor-loader {
+    width: 100%;
+    min-height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    font-weight: 500;
+    color: #3b3b3bdd;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.seccion-pacientes {
+    padding: 20px 30px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 10px;
+}
+
+.seccion-pacientes .agregar {
+    background-color: #25b09b;
+    border: none;
+    transition: all 0.2s ease-in;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 400;
+    padding: 8px 25px;
+}
+
+.seccion-pacientes .agregar:hover {
+    background-color: #9e9e9e;
+    color: #fff;
+}
+
+.seccion-pacientes .contenedor-btn {
+    text-align: end;
+}
+
+.modal-title {
+    font-size: 22px !important;
+}
+
+.modal-footer button {
+    border-radius: 5px !important;
+    border: none !important;
+}
+
+.modal-footer .btn-primary {
+    background-color: #25b09b;
+    border: none;
+    transition: all 0.2s ease-in;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.modal-footer .btn-primary:hover {
+    background-color: #1e8878 !important;
+    color: #fff;
+}
+
+.modal-body input,
+.modal-body select {
+    box-shadow: none !important;
+}
+
+.modal-body input:focus,
+.modal-body select:focus {
+    border-color: #25b09b;
+}
+
+.tabla-actions button:nth-child(1) {
+    margin-right: 3px;
+    background-color: #a1a1a1 !important;
+    border: none;
+}
+
+.tabla-actions button:nth-child(2) {
+    margin-right: 3px;
+    background-color: #81DAE3 !important;
+    border: none;
+}
+
+.tabla-actions button:nth-child(3) {
+    background-color: #C96868 !important;
+    border: none;
+}
