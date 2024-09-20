@@ -80,6 +80,7 @@ La tabla `pacientes` está estructurada de la siguiente manera:
 - PHP >= 11
 - Composer
 - Node.js y npm
+- XAMPP
 
 ### Instrucciones
 
