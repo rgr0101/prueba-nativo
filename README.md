@@ -1,5 +1,8 @@
 # Proyecto Prueba Hospital
 
+## Video de demostración
+https://drive.google.com/file/d/1UEzXqgvCOKULcDCnPINhJZ4r_vCMB3W5/view?usp=sharing
+
 ## Descripción
 
 Este proyecto prueba consta de dos aplicaciones: un servidor API desarrollado con **Laravel** y un cliente de interfaz de usuario construido con **React**. La aplicación del servidor utiliza **Laravel Sanctum** para la autenticación y **MySQL** como base de datos, y ofrece funcionalidades de inicio de sesión y un CRUD completo para gestionar a los pacientes.
@@ -105,6 +108,3 @@ La tabla `pacientes` está estructurada de la siguiente manera:
   cd hospital_cliente
   npm install
   npm run dev
-
-
-
